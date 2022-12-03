@@ -174,7 +174,7 @@ public class H07_RubricProvider implements RubricProvider {
 
     private static final Criterion CRITERION_H3_3 = Criterion
         .builder()
-        .shortDescription("H3.2: Lambda-Ausdruck anstelle von EuclideanNorm")
+        .shortDescription("H3.3: Lambda-Ausdruck anstelle von DoubleMaxOfTwo ")
         .addChildCriteria(
             DEFAULT_CRITERION.apply(
                 "Die Methode liefert korrekte Ergebnisse bei verschiedenen Eingabewerten.",
